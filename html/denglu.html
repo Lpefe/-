@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        img {
+            width: 100%;
+            height: 600px
+        }
+        
+        form {
+            position: absolute;
+            top: 182px;
+            left: 916px;
+        }
+        
+        input {
+            width: 260px;
+            height: 38px;
+            border: 1px solid #DDDDDD
+        }
+        
+        #pw {
+            margin-top: 5px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="../images/未标题-1.jpg" alt="">
+    <form action="../php/denglu.php" method="POST">
+        <input type="text" name="user" id="user" /><br /><br />
+        <input type="text" name="password" id="pw" /><br /><br />
+        <input type="submit" value="登录" />
+
+    </form>
+</body>
+
+</html>

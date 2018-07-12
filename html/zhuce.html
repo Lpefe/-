@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body {
+            height: 100%;
+        }
+        
+        div {
+            width: 500px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        span {
+            color: #000;
+            margin: 0 auto;
+        }
+        
+        div {
+            margin: 10px 130px;
+            align-items: center;
+        }
+        
+        input {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="../images/zhuce.png" alt="">
+    <div>
+
+        <form action="../php/zhuce.php" method="POST">
+            <span id="">用户名:</span>
+            <input type="text" name="user" id="user" /><br /><br /><br />
+            <span id="">密   &nbsp;&nbsp;码:</span>
+            <input type="text" name="password" id="user" /><br /><br />
+            <input type="submit" value="注册" />
+
+        </form>
+    </div>
+</body>
+
+</html>
